@@ -1,0 +1,28 @@
+.section_features {
+  padding: 15rem 10rem;
+  height: 75vh;
+  background-size: cover;
+  transform: skewY(0deg);
+  clip-path: polygon(0 15%, 100% 0, 100% 75vh, 0 90%);
+  background: linear-gradient(90deg, rgba(0, 161, 223, 0.54) 0%, rgba(0, 161, 223, 0.54) 35%, rgba(0,212,255,1) 100%);
+}
+
+.feature-box {
+  background-color: rgba(255,255,255, 0.8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 3.5rem 1rem rgba(0,161,223, .15);
+  transition: transition .3s;
+}
+
+@media only screen and (max-width: 1200px) {
+  .feature-box {
+    display: none;
+  }
+
+  .section_features {
+    display: none;
+  }
+}

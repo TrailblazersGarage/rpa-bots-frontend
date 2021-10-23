@@ -1,0 +1,84 @@
+.box-payment-stripe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: #f1f0f0;*/
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', 'Ubuntu', sans-serif;
+    /*height: 100vh;*/
+    margin: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.section-stripe {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 112px;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+.product-stripe {
+    display: flex;
+}
+.description-stripe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p-stripe {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.154px;
+    color: #242d60;
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.img-stripe {
+    border-radius: 6px;
+    margin: 10px;
+    width: 54px;
+    height: 57px;
+}
+.h3-stripe,
+.h5-stripe {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.154px;
+    color: #242d60;
+    margin: 0;
+}
+.h5-stripe {
+    opacity: 0.5;
+}
+#checkout-button-stripe {
+    height: 36px;
+    background: #009EDB;
+    color: white;
+    width: 100%;
+    font-size: 12px;
+    border: 0;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.6;
+    border-radius: 0 0 6px 6px;
+    transition: all 0.2s ease;
+    box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+}
+#checkout-button-stripe:hover {
+    opacity: 0.8;
+}
+
+#checkout-button-stripe:disabled {
+    background: #bbbbbb;
+}

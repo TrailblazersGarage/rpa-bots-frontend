@@ -1,0 +1,26 @@
+.apps-cards-style {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ( 0 );
+    transition: transform .25s ease-out;
+    text-align: center;
+    margin: .5rem;
+    padding: 4rem;
+    width:100%;
+    border-width: .25rem;
+    border-radius: .5rem;
+ }
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-child {
+    flex: 1 0 50%;
+}
+
+.col {
+    padding:30px;
+}
