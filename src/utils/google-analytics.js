@@ -1,7 +1,7 @@
 import ReactGA from "react-ga";
 
 export const initGoogleAnalytics = () => {
-    ReactGA.initialize("G-440DXY8Y31");
+    ReactGA.initialize("UA-210896932-1");
 };
 
 // Which pages our users are viewing
