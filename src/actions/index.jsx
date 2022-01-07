@@ -42,8 +42,7 @@ export const setSearchInput = (text) => {
  */
 export const requestPublicRepos = () => (dispatch) => {
     dispatch({ type: REQUEST_GIT_REPOS_PENDING});
-    fetch('https://api.github.com/users/TrailblazersGarage/repos',
-        {headers: {'Authorization': 'token 5b3626e1a2c8a44a42fe9f1489c688b29ec8cd56'}})
+    fetch('https://api.github.com/users/TrailblazersGarage/repos')
         .then(response => response.json())
         .then(data => dispatch({ type: REQUEST_GIT_REPOS_SUCCESS, payload: data }))
         .catch(error => dispatch({ type: REQUEST_GIT_REPOS_FAILED, payload: error }))
