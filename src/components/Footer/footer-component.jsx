@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div>
             <footer className="page-footer">
-                    <small>Coded with <span>❤</span> by <a href="http://mrjhonyvidal.github.io/" target="_blank" className="link green dim bg-animate hover-bg-yellow">Jhony Vidal</a>.</small>
+                    <small>Coded with <span>❤</span> by <a href="http://mrjhonyvidal.github.io/" target="_blank" rel="noopener noreferrer" className="link green dim bg-animate hover-bg-yellow">Jhony Vidal</a>.</small>
                     <CookieConsent
                         location="bottom"
                         buttonText="Accept"

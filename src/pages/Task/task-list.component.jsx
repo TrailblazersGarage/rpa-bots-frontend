@@ -33,7 +33,7 @@ const TaskList = props => {
                     }
                 }
             }
-        }, [items, isLocalStorageLoaded]);
+        }, [items, isLocalStorageLoaded, moduleId]);
 
     return (
         <div>
