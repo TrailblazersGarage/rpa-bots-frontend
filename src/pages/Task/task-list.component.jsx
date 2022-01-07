@@ -16,7 +16,7 @@ const TaskList = props => {
         useEffect(() => {
             handleLoadStateLocalStorage(moduleId);
             setIsLocalStorageLoaded(true);
-        }, [handleLoadStateLocalStorage]);
+        }, [handleLoadStateLocalStorage, moduleId]);
 
         useEffect(() => {
             if(isLocalStorageLoaded){
