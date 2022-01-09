@@ -28,7 +28,7 @@ class HeaderHomeComponent extends Component {
                     <h1 className='heading-primary'>
                         <span className='heading-primary-main'>Keep Coding</span>
                     </h1>
-                    <h2 className="f2 mt0">Some of my apps to help you in your next project</h2>
+                    <h2 className="f2 mt0">Save time on your next project</h2>
                     <BuyMeACoffeeBtn />
                     {this.renderContent()}
                 </div>

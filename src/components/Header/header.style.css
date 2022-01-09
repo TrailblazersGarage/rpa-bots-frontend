@@ -1,6 +1,6 @@
 .header-home {
   height: 95vh;
-  background: linear-gradient(90deg, rgba(0, 161, 223, 0.54) 0%, rgba(0, 161, 223, 0.54) 35%, rgba(0,212,255,1) 100%);
+  background: #ffb700;
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 80% 75vh, 0 100%);

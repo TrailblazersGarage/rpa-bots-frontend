@@ -42,7 +42,7 @@ export const setSearchInput = (text) => {
  */
 export const requestPublicRepos = () => (dispatch) => {
     dispatch({ type: REQUEST_GIT_REPOS_PENDING});
-    fetch('https://api.github.com/users/TrailblazersGarage/repos')
+    fetch('https://api.github.com/users/TrailblazersGarage/repos?sort=updated')
         .then(response => response.json())
         .then(data => dispatch({ type: REQUEST_GIT_REPOS_SUCCESS, payload: data }))
         .catch(error => dispatch({ type: REQUEST_GIT_REPOS_FAILED, payload: error }))
