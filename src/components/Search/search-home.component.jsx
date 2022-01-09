@@ -5,12 +5,12 @@ const SearchHome = ({ searchChange }) => {
     return (
         <div>
             <div className="ph3 center">
-                <a href="#" className="f5 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue">react.js</a>
-                <a href="#" className="f5 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue">next.js</a>
-                <a href="#" className="f5 grow no-underline br-pill ph3 pv2 mb2 dib white bg-dark-green">flutter</a>
-                <a href="#" className="f5 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue">node.js</a>
-                <a href="#" className="f5 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue">blockchain</a>
-                <a href="#" className="f5 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue">nft</a>
+                <button style={{border:'none'}} className="f5 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue">react.js</button>
+                <button style={{border:'none'}} className="f5 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue">next.js</button>
+                <button style={{border:'none'}} className="f5 grow no-underline br-pill ph3 pv2 mb2 dib white bg-dark-green">flutter</button>
+                <button style={{border:'none'}} className="f5 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue">node.js</button>
+                <button style={{border:'none'}} className="f5 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue">blockchain</button>
+                <button style={{border:'none'}} className="f5 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue">nft</button>
             </div>
             <div className='pa3'>
                 <div className='center'>
